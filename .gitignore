@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project generated outputs
+llm/function_analysis.json
+llm/function_analysis_serial.json
+llm/function_analysis_async.json
+visualization/report.html
+
+# Logs
+*.log
